@@ -1,0 +1,18 @@
+.h1 {
+    font-family: 'Montserrat 900', sans-serif;
+    font-size: 30px;
+    color: #fff;
+}
+.nav-link {
+    font-family:'Roboto 700', sans-serif;
+}
+.container {
+    padding: 1%;
+}
+#header {
+    background-color: #000;
+}
+.nav, .navbar-nav {
+    padding-bottom: 4.5rem;
+    padding-top: 4.5rem;
+}
