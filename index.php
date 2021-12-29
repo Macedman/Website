@@ -14,11 +14,12 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 </head>
+
 <body>
 
             <!--Navbar-->
 <section id="header">
-    <div class="container">
+    <div class="container p-3">
     <div class="row">
     
 
@@ -48,7 +49,7 @@
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Dropdown</a>
+                        Login</a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                     <li><a class="dropdown-item text-light text-dark" href="#">Sign up</a></li>
                     <li><a class="dropdown-item text-light text-dark" href="#">Login</a></li>
@@ -59,21 +60,89 @@
                 </ul>
         </div>
         </nav>
-    
-
-        <div class="row">
-            <div class="col ms-auto">
-                <img src="img/house.png" width="1420px" height="880px"alt=""></img>
-            </div>
         </div>
-    </div>
 </div>
 </section>
 
+        <!--Image-->
+        <div class="container-fluid bg-black pb-5">
+        <div class="row">
+            <div class="col">
+                <img class="mx-auto d-block" src="img/house.png"  alt=""></img>
+            </div>
+        </div>
 
 
+<!--Gift Cards-->
+<section class="gift-cards">
+    <div class="container mt-5">
+        <div class="card">
+    <div class="row m-5 p-5">
+        <div class="col-lg-6 text-center">
+            <h6>Introducing</h6><br> 
+            <h1 class="cardy">Airbcd Gift Cards</h1>
+            <div class="btn btn-dark">Shop now</div>
+        </div>
+        <div class="col-lg-6 text-center">
+           <img src="img/gift.png" width="500px" height="350px" alt="gift">
+        </div>
+    </div>
+    </div>
+ </div>
+ </div>
+</section>
 
-    
+
+<!--Introducing-->
+<section>
+    <div class="container">
+        <div class="row mr-5 mb-5 mt-5">
+            <div class="col h3">
+                Inspiration for your next trip
+            </div>
+            </div>
+        <div class="row p-0 mb-5">
+        <div class="col-lg-3">
+            <div class="card p-0">
+            <img class="card-img-top" src="img/mnl.jpg" alt="">
+            <div class="card-body pb-5 mnl">
+                <h5 class="card-title">Manila</h5>
+                <p class="card-text">8 kilometers away</p>
+            </div>
+            </div>
+        </div>
+        <div class="col-lg-3">
+            <div class="card p-0">
+            <img class="card-img-top" src="img/nasugbu.jpg" alt="">
+            <div class="card-body pb-5 nasugbu">
+                <h5 class="card-title">Nasugbu</h5>
+                <p class="card-text">63 kilometers away</p>
+            </div>
+            </div>
+        </div>
+        <div class="col-lg-3">
+            <div class="card p-0">
+            <img class="card-img-top" src="img/batangas.jpg" alt="">
+            <div class="card-body pb-5 batangas">
+                <h5 class="card-title">Batangas City</h5>
+                <p class="card-text">88 kilometers away</p>
+            </div>
+            </div>
+        </div>
+        <div class="col-lg-3">
+            <div class="card p-0">
+            <img class="card-img-top" src="img/mabini.jpg" alt="">
+            <div class="card-body pb-5 mabini">
+                <h5 class="card-title">Mabini</h5>
+                <p class="card-text">93  kilometers away</p>
+            </div>
+            </div>
+        </div>
+        </div>
+    </div>
+</section>
+
+
 
 
 

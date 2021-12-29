@@ -6,13 +6,27 @@
 .nav-link {
     font-family:'Roboto 700', sans-serif;
 }
-.container {
-    padding: 1%;
-}
 #header {
     background-color: #000;
 }
-.nav, .navbar-nav {
-    padding-bottom: 4.5rem;
-    padding-top: 4.5rem;
+body {
+    background: #000;
+}
+.nasugbu {
+    background-color: #D93B30;
+}
+.mnl {
+    background-color: #BC1A6E;
+}
+.batangas{
+    background-color: #DE3151;
+
+}
+.mabini {
+    background-color: #CC2D4A;
+}
+.nasugbu, .mnl, .batangas, .mabini {
+    color: #fff;
+    padding: 0;
+    margin: 0;
 }
