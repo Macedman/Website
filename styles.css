@@ -6,12 +6,7 @@
 .nav-link {
     font-family:'Roboto 700', sans-serif;
 }
-#header {
-    background-color: #000;
-}
-body {
-    background: #000;
-}
+
 .nasugbu {
     background-color: #D93B30;
 }
@@ -27,6 +22,9 @@ body {
 }
 .nasugbu, .mnl, .batangas, .mabini {
     color: #fff;
-    padding: 0;
-    margin: 0;
+}
+
+#header {
+    padding: 2% 10%;
+    background-color: #000;
 }

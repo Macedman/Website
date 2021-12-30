@@ -5,25 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Airbcd</title>
-    <link rel="icon" type="image/x-icon" href="img/favicon.png">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="img/favicon.png">    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,400;1,600;1,900&family=Roboto:ital,wght@1,400;1,700&display=swap" rel="stylesheet">
-    <!-- Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,400;1,0;1,900&family=Roboto:ital,wght@1,400;1,700&display=swap" rel="stylesheet">
+     <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!--Custom Css-->
+    <link rel="stylesheet" href="styles.css">
+    
+   
 </head>
 
 <body>
 
             <!--Navbar-->
 <section id="header">
-    <div class="container p-3">
+    <div class="container-fluid">
     <div class="row">
     
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-black   ">
+    <nav class="navbar navbar-expand-lg navbar-light">
         <a class="navbar-brand text-light" href="#"><img src="img/logo.png" alt="" width="30" height="24" class="align-text-top"><h6>airbcd</a></h6>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon bg-light"></span>
@@ -42,6 +44,7 @@
                     <a class="nav-link text-light" href="#">Online Experiences</a>
                     </li>
                 </ul>
+
         
 <ul class="navbar-nav navbar-right">
                     <li class="nav-item">
@@ -65,19 +68,21 @@
 </section>
 
         <!--Image-->
-        <div class="container-fluid bg-black pb-5">
+        <section class="bg-black">
+        <div class="container-fluid pb-5">
         <div class="row">
             <div class="col">
-                <img class="mx-auto d-block" src="img/house.png"  alt=""></img>
+                <img class="img-fluid mx-auto d-block" src="img/house.png"  alt=""></img>
             </div>
         </div>
+        </section>
 
 
 <!--Gift Cards-->
 <section class="gift-cards">
     <div class="container mt-5">
         <div class="card">
-    <div class="row m-5 p-5">
+    <div class="row m-5  p-5">
         <div class="col-lg-6 text-center">
             <h6>Introducing</h6><br> 
             <h1 class="cardy">Airbcd Gift Cards</h1>
@@ -93,11 +98,11 @@
 </section>
 
 
-<!--Introducing-->
+<!--Next trips-->
 <section>
     <div class="container">
         <div class="row mr-5 mb-5 mt-5">
-            <div class="col h3">
+            <div class="col h3 text-black">
                 Inspiration for your next trip
             </div>
             </div>
@@ -146,6 +151,7 @@
 
 
 
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
+
 </html>
