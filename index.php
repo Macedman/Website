@@ -79,19 +79,18 @@
 
 
 <!--Gift Cards-->
-<section class="gift-cards">
+<section>
     <div class="container mt-5">
-        <div class="card">
+        <div class="card" style="background-color: #f0eded">
     <div class="row m-5  p-5">
         <div class="col-lg-6 text-center">
             <h6>Introducing</h6><br> 
             <h1 class="cardy">Airbcd Gift Cards</h1>
-            <div class="btn btn-dark">Shop now</div>
+            <div class="btn btn-outline-dark">Shop now</div>
         </div>
         <div class="col-lg-6 text-center">
            <img src="img/gift.png" width="500px" height="350px" alt="gift">
         </div>
-    </div>
     </div>
  </div>
  </div>
