@@ -68,8 +68,8 @@
 </section>
 
         <!--Image-->
-        <section class="bg-black">
-        <div class="container-fluid pb-5">
+        <section id="image" class="bg-black pb-5">
+        <div class="container-fluid">
         <div class="row">
             <div class="col">
                 <img class="img-fluid mx-auto d-block" src="img/house.png"  alt=""></img>
@@ -80,10 +80,10 @@
 
 <!--Gift Cards-->
 <section>
-    <div class="container mt-5">
-        <div class="card" style="background-color: #f0eded">
-    <div class="row m-5  p-5">
-        <div class="col-lg-6 text-center">
+    <div class="container">
+        <div class="card gifty">
+    <div class="row">
+        <div class="col-lg-6 text-center center-y">
             <h6>Introducing</h6><br> 
             <h1 class="cardy">Airbcd Gift Cards</h1>
             <div class="btn btn-outline-dark">Shop now</div>
@@ -145,6 +145,15 @@
         </div>
     </div>
 </section>
+
+<!--Experiences-->
+    <section>
+        <div class="container-fluid">
+        <div class="row">
+            <div class="col">Discover Airbnb Experiences</div>
+        </div>
+        </div>
+    </section>
 
 
 

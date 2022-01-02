@@ -25,10 +25,21 @@
 }
 
 #header {
-    padding: 2% 10%;
+    padding: 3% 10%;
     background-color: #000;
 }
 
+.gifty { 
+    background-color: #f0eded;
+    margin-top: 7%;
+    justify-content: center;
+}
+
+
 #transparent {
     background-color: rgba(255, 0, 255, 0.5);
+}
+
+.center-y {
+    padding: 15%;
 }
