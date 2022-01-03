@@ -100,7 +100,7 @@
 <!--Next trips-->
 <section>
     <div class="container">
-        <div class="row mr-5 mb-5 mt-5">
+        <div class="row mr-5 mt-5">
             <div class="col h3 text-black">
                 Inspiration for your next trip
             </div>
@@ -148,10 +148,29 @@
 
 <!--Experiences-->
     <section>
-        <div class="container-fluid">
-        <div class="row">
-            <div class="col">Discover Airbnb Experiences</div>
-        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col h3">Discover Airbnb Experiences</div>
+            </div>
+        
+
+            <div class="row">
+                <div class="col lg-6">
+                    <div class="card">
+                        Things to do on your roadtrip
+                        <div class="btn btn btn-dark">Online Experiences</div>
+                    </div>
+
+                </div>
+                <div class="col lg-6">
+                    <div class="card">
+                        Things to do from Home
+                        <div class="btn btn btn-dark">Online Experiences</div>
+                    </div>
+
+                </div>
+
+            </div>
         </div>
     </section>
 
